@@ -13,170 +13,148 @@
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:logo="@mipmap/ic_launcher"
+        app:title="TicTacToe" />
+
+    <!-- Button 1 -->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@android:color/darker_gray"
+        android:text=""
+        app:layout_constraintBaseline_toBaselineOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+
+    <!-- Button 2 -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/cardview_dark_background"
+        android:text=""
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button1"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <!-- Button 3 -->
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@color/cardview_dark_background"
+        android:text=""
+        app:layout_constraintBaseline_toBaselineOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:title="TicTacToe"
-        app:logo="@mipmap/ic_launcher" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button2" />
 
-    <GridLayout
-        android:id="@+id/gridLayout"
-        android:layout_width="370dp"
-        android:layout_height="350dp"
-        android:layout_margin="15dp"
-        android:layout_marginTop="2dp"
-        android:columnCount="3"
-        android:rowCount="3"
+    <!-- Button 4 -->
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@color/cardview_dark_background"
+        android:text=""
+        app:layout_constraintBaseline_toBaselineOf="@+id/button5"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Button 5 -->
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/cardview_dark_background"
+        android:text=""
+        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <!-- Button 6 -->
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@color/cardview_dark_background"
+        android:text=""
+        app:layout_constraintBaseline_toBaselineOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button5" />
 
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_row="0"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
-            android:layout_margin="5dp"
-            android:background="@android:color/darker_gray"
-            android:text=""
-            android:textColorLink="@android:color/darker_gray"
-            app:layout_constraintDimensionRatio="1:1" />
+    <!-- Button 7 -->
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@color/cardview_dark_background"
+        android:text=""
+        app:layout_constraintBaseline_toBaselineOf="@+id/button8"
+        app:layout_constraintEnd_toStartOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_row="0"
-            android:layout_rowWeight="1"
-            android:layout_column="1"
-            android:layout_columnWeight="1"
-            android:layout_margin="5dp"
-            android:background="@color/cardview_dark_background"
-            android:text=""
-            app:layout_constraintDimensionRatio="1:1" />
+    <!-- Button 8 -->
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/cardview_dark_background"
+        android:text=""
+        app:layout_constraintEnd_toStartOf="@+id/button9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
 
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_row="0"
-            android:layout_rowWeight="1"
-            android:layout_column="2"
-            android:layout_columnWeight="1"
-            android:layout_margin="5dp"
-            android:background="@color/cardview_dark_background"
-            android:rotationY="-1"
-            android:text=""
-            app:layout_constraintDimensionRatio="1:1" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_row="1"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
-            android:layout_margin="5dp"
-            android:background="@color/cardview_dark_background"
-            android:text=""
-            app:layout_constraintDimensionRatio="1:1" />
-
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_row="1"
-            android:layout_rowWeight="1"
-            android:layout_column="1"
-            android:layout_columnWeight="1"
-            android:layout_margin="5dp"
-            android:background="@color/cardview_dark_background"
-            android:text=""
-            app:layout_constraintDimensionRatio="1:1" />
-
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_row="1"
-            android:layout_rowWeight="1"
-            android:layout_column="2"
-            android:layout_columnWeight="1"
-            android:layout_margin="5dp"
-            android:background="@color/cardview_dark_background"
-            android:text=""
-            app:layout_constraintDimensionRatio="1:1" />
-
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_row="2"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
-            android:layout_margin="5dp"
-            android:background="@color/cardview_dark_background"
-            android:text=""
-            app:layout_constraintDimensionRatio="1:1" />
-
-        <Button
-            android:id="@+id/button8"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_row="2"
-            android:layout_rowWeight="1"
-            android:layout_column="1"
-            android:layout_columnWeight="1"
-            android:layout_margin="5dp"
-            android:background="@color/cardview_dark_background"
-            android:text=""
-            app:layout_constraintDimensionRatio="1:1" />
-
-        <Button
-            android:id="@+id/button9"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_row="2"
-            android:layout_rowWeight="1"
-            android:layout_column="2"
-            android:layout_columnWeight="1"
-            android:layout_margin="5dp"
-            android:background="@android:color/darker_gray"
-            android:text=""
-            app:layout_constraintDimensionRatio="1:1" />
-    </GridLayout>
+    <!-- Button 9 -->
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@android:color/darker_gray"
+        android:text=""
+        app:layout_constraintBaseline_toBaselineOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button8" />
 
     <TextView
         android:id="@+id/turnLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="90dp"
+        android:layout_marginTop="96dp"
         android:text="Player 1's turn"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/newGameButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gridLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
 
     <Button
         android:id="@+id/newGameButton"
-        android:layout_width="0dp"
+        android:layout_width="370dp"
         android:layout_height="0dp"
-        android:layout_marginTop="55dp"
+        android:layout_marginBottom="16dp"
         android:background="@color/cardview_dark_background"
         android:text="New Game"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.1"
-        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/turnLabel"
         app:layout_constraintWidth_percent="0.9" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
