@@ -23,20 +23,20 @@
     <Button
         android:id="@+id/button1"
         android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_height="0dp"
         android:background="@android:color/darker_gray"
         android:text=""
         app:layout_constraintBaseline_toBaselineOf="@+id/button2"
         app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
     <!-- Button 2 -->
     <Button
         android:id="@+id/button2"
         android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_height="0dp"
         android:layout_marginTop="8dp"
         android:background="@color/cardview_dark_background"
         android:text=""
@@ -49,7 +49,7 @@
     <Button
         android:id="@+id/button3"
         android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_height="0dp"
         android:background="@color/cardview_dark_background"
         android:text=""
         app:layout_constraintBaseline_toBaselineOf="@+id/button2"
@@ -61,7 +61,7 @@
     <Button
         android:id="@+id/button4"
         android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_height="0dp"
         android:background="@color/cardview_dark_background"
         android:text=""
         app:layout_constraintBaseline_toBaselineOf="@+id/button5"
@@ -73,7 +73,7 @@
     <Button
         android:id="@+id/button5"
         android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:background="@color/cardview_dark_background"
         android:text=""
@@ -86,7 +86,7 @@
     <Button
         android:id="@+id/button6"
         android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_height="wrap_content"
         android:background="@color/cardview_dark_background"
         android:text=""
         app:layout_constraintBaseline_toBaselineOf="@+id/button5"
@@ -98,7 +98,7 @@
     <Button
         android:id="@+id/button7"
         android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_height="0dp"
         android:background="@color/cardview_dark_background"
         android:text=""
         app:layout_constraintBaseline_toBaselineOf="@+id/button8"
@@ -110,7 +110,7 @@
     <Button
         android:id="@+id/button8"
         android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_height="0dp"
         android:layout_marginTop="8dp"
         android:background="@color/cardview_dark_background"
         android:text=""
@@ -123,7 +123,7 @@
     <Button
         android:id="@+id/button9"
         android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_height="0dp"
         android:background="@android:color/darker_gray"
         android:text=""
         app:layout_constraintBaseline_toBaselineOf="@+id/button8"
@@ -135,7 +135,6 @@
         android:id="@+id/turnLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="96dp"
         android:text="Player 1's turn"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/newGameButton"
