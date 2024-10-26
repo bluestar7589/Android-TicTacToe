@@ -22,10 +22,10 @@
     <!-- Button 1 -->
     <Button
         android:id="@+id/button1"
-        android:layout_width="110dp"
-        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@android:color/darker_gray"
-        android:text=""
+        android:text="@string/space"
         app:layout_constraintBaseline_toBaselineOf="@+id/button2"
         app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintHorizontal_bias="0.5"
@@ -35,11 +35,11 @@
     <!-- Button 2 -->
     <Button
         android:id="@+id/button2"
-        android:layout_width="110dp"
-        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:background="@color/cardview_dark_background"
-        android:text=""
+        android:text="@string/space"
         app:layout_constraintEnd_toStartOf="@+id/button3"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button1"
@@ -48,10 +48,10 @@
     <!-- Button 3 -->
     <Button
         android:id="@+id/button3"
-        android:layout_width="110dp"
-        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@color/cardview_dark_background"
-        android:text=""
+        android:text="@string/space"
         app:layout_constraintBaseline_toBaselineOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -60,10 +60,10 @@
     <!-- Button 4 -->
     <Button
         android:id="@+id/button4"
-        android:layout_width="110dp"
-        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@color/cardview_dark_background"
-        android:text=""
+        android:text="@string/space"
         app:layout_constraintBaseline_toBaselineOf="@+id/button5"
         app:layout_constraintEnd_toStartOf="@+id/button5"
         app:layout_constraintHorizontal_bias="0.5"
@@ -72,11 +72,11 @@
     <!-- Button 5 -->
     <Button
         android:id="@+id/button5"
-        android:layout_width="110dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:background="@color/cardview_dark_background"
-        android:text=""
+        android:text="@string/space"
         app:layout_constraintEnd_toStartOf="@+id/button6"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button4"
@@ -85,10 +85,10 @@
     <!-- Button 6 -->
     <Button
         android:id="@+id/button6"
-        android:layout_width="110dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/cardview_dark_background"
-        android:text=""
+        android:text="@string/space"
         app:layout_constraintBaseline_toBaselineOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -97,10 +97,10 @@
     <!-- Button 7 -->
     <Button
         android:id="@+id/button7"
-        android:layout_width="110dp"
-        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@color/cardview_dark_background"
-        android:text=""
+        android:text="@string/space"
         app:layout_constraintBaseline_toBaselineOf="@+id/button8"
         app:layout_constraintEnd_toStartOf="@+id/button8"
         app:layout_constraintHorizontal_bias="0.5"
@@ -109,11 +109,11 @@
     <!-- Button 8 -->
     <Button
         android:id="@+id/button8"
-        android:layout_width="110dp"
-        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:background="@color/cardview_dark_background"
-        android:text=""
+        android:text="@string/space"
         app:layout_constraintEnd_toStartOf="@+id/button9"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button7"
@@ -122,10 +122,10 @@
     <!-- Button 9 -->
     <Button
         android:id="@+id/button9"
-        android:layout_width="110dp"
-        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@android:color/darker_gray"
-        android:text=""
+        android:text="@string/space"
         app:layout_constraintBaseline_toBaselineOf="@+id/button8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
