@@ -22,8 +22,8 @@
     <!-- Button 1 -->
     <Button
         android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:background="@android:color/darker_gray"
         android:text="@string/space"
         app:layout_constraintBaseline_toBaselineOf="@+id/button2"
@@ -35,8 +35,8 @@
     <!-- Button 2 -->
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_marginTop="8dp"
         android:background="@color/cardview_dark_background"
         android:text="@string/space"
@@ -48,8 +48,8 @@
     <!-- Button 3 -->
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:background="@color/cardview_dark_background"
         android:text="@string/space"
         app:layout_constraintBaseline_toBaselineOf="@+id/button2"
@@ -60,8 +60,8 @@
     <!-- Button 4 -->
     <Button
         android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:background="@color/cardview_dark_background"
         android:text="@string/space"
         app:layout_constraintBaseline_toBaselineOf="@+id/button5"
@@ -72,8 +72,8 @@
     <!-- Button 5 -->
     <Button
         android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_marginTop="8dp"
         android:background="@color/cardview_dark_background"
         android:text="@string/space"
@@ -85,8 +85,8 @@
     <!-- Button 6 -->
     <Button
         android:id="@+id/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:background="@color/cardview_dark_background"
         android:text="@string/space"
         app:layout_constraintBaseline_toBaselineOf="@+id/button5"
@@ -97,8 +97,8 @@
     <!-- Button 7 -->
     <Button
         android:id="@+id/button7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:background="@color/cardview_dark_background"
         android:text="@string/space"
         app:layout_constraintBaseline_toBaselineOf="@+id/button8"
@@ -109,8 +109,8 @@
     <!-- Button 8 -->
     <Button
         android:id="@+id/button8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_marginTop="8dp"
         android:background="@color/cardview_dark_background"
         android:text="@string/space"
@@ -122,8 +122,8 @@
     <!-- Button 9 -->
     <Button
         android:id="@+id/button9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:background="@android:color/darker_gray"
         android:text="@string/space"
         app:layout_constraintBaseline_toBaselineOf="@+id/button8"
@@ -135,7 +135,7 @@
         android:id="@+id/turnLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Player 1's turn"
+        android:text="Player X's turn"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/newGameButton"
         app:layout_constraintEnd_toEndOf="parent"
@@ -145,7 +145,7 @@
 
     <Button
         android:id="@+id/newGameButton"
-        android:layout_width="370dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="16dp"
         android:background="@color/cardview_dark_background"
